@@ -127,7 +127,7 @@ public static void main() throws SQLException, FileNotFoundException, IOExceptio
           }
           
           // mystring.split("|", 1);
-          System.out.println("Yaha agya dobaraa case 15");
+        
           // to be stripped till 4th character+11+12
 
         case 16:// for the matching ofgroup items
@@ -147,14 +147,14 @@ public static void main() throws SQLException, FileNotFoundException, IOExceptio
           //System.out.println(15 + ":" + arr2[15]);
 
           // mystring.split("|", 1);
-          System.out.println("Yaha agya dobaraa case 16");
+      
           // to be stripped till 4th character+11+12
 
         case 17:// for the matching ofgroup items
           Pattern expression2 = Pattern.compile("\\d+\\s+\\b+.*");
-          System.out.println("case 17 he");
+        
           String z9 = "";
-          System.out.println("Yaha agya dobaraa case 17");
+      
           //System.out.println(2);
           mystring = br1.readLine();
           System.out.println(mystring);
@@ -221,7 +221,7 @@ public static void main() throws SQLException, FileNotFoundException, IOExceptio
 
       pst = con.prepareStatement(query);
       // String zt=Integer.toString('\+');
-      System.out.println("yaha prepared statmnt he");
+  
       for(int i=0;i<15;i++){
     	  System.out.println("for arrays");
       System.out.println(arr2[i]);
