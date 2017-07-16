@@ -1,6 +1,6 @@
 # PDFfromemailToDatabase
 
 
-A project to fetch pd attachments from email and store the content in the database.
+A project to fetch pdf attachments from email and store the content in the database.
 
 
